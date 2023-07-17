@@ -1,0 +1,35 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "2023-07-16T19:29:56Z",
+    "title" : "redis-stack-api-gateway"
+  },
+  "host" : "3pefh7ai7c.execute-api.us-east-1.amazonaws.com",
+  "basePath" : "/prod",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/" : {
+      "get" : {
+        "responses" : { }
+      }
+    },
+    "/charge-request-redis" : {
+      "post" : {
+        "responses" : {
+          "200" : {
+            "description" : "200 response"
+          }
+        }
+      }
+    },
+    "/reset-redis" : {
+      "post" : {
+        "responses" : {
+          "200" : {
+            "description" : "200 response"
+          }
+        }
+      }
+    }
+  }
+}
